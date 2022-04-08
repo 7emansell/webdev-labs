@@ -1,0 +1,49 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+}
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 3vh;
+}
+
+main div {
+    margin: auto;
+    width: 60%;
+    padding: 10px;  
+    text-align: center;    
+}
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    /* Media queries go here */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Media queries go here */
+}
